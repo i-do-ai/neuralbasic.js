@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+<link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css" />
+<title>NeuralBasic - Playground</title>
 </head>
 <body>
   <textarea>let net = new Perceptron({ inputsLength: 5 });
 alert(net.run([1, 0, 1, 0, 1]));</textarea>
-  <button onclick="eval(this.previousElementSibling().value)">Go!</button>
+  <button onclick="eval(this.previousElementSibling.value)">Go!</button>
   
   <script src="https://github.com/i-do-ai/neuralbasic.js/blob/b1592e925bc5361d21fc8e181fe34a93360b044c/lib.js"></script>
 </body>
